@@ -255,4 +255,6 @@ app_license = "mit"
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
-
+override_report = {
+    "UAE VAT 201": "haaal_custom.report.haaal_uae_vat_201.haaal_uae_vat_201.execute"
+}
