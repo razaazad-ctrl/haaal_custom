@@ -23,7 +23,7 @@ def get_input_total(filters):
 
     conditions = [
         "pi.docstatus = 1",
-        "tax.account_head LIKE 'VAT%'",
+        "tax.account_head LIKE 'VAT%%'",
     ]
 
     values = {}
@@ -62,7 +62,7 @@ def get_input_vat(filters):
 
     conditions = [
         "pi.docstatus=1",
-        "tax.account_head LIKE 'VAT%'",
+        "tax.account_head LIKE 'VAT%%'",
     ]
 
     values = {}
